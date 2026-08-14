@@ -6,10 +6,10 @@ nav: true
 nav_order: 6
 description: #blank text, don't know to add something??
 ---
-[Download my CV in PDF]({{ '/assets/files/MyCV.pdf' | relative_url }})
+[Download my CV in PDF]({{ 'assets/pdf/MyCV.pdf' | relative_url }})
 
 <iframe
-  src="{{ '/assets/files/MyCV.pdf' | relative_url }}"
+  src="{{ 'assets/pdf/MyCV.pdf' | relative_url }}"
   width="100%"
   height="1200px"
   style="border: 1px solid #d9ded7; border-radius: 6px;">
