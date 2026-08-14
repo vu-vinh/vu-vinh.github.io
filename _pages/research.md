@@ -8,6 +8,8 @@ nav_order: 3
 display_categories: [Optimal Control, Intelligent Control]
 horizontal: false
 ---
+# Research
+
 ## research vision
 My research is positioned at the intersection of control engineering, electrified transportation, power electronics, and modern power systems. I focus on developing control-oriented models, advanced control strategies, optimal energy management algorithms, and simulation/HIL platforms for energy systems with high penetration of power electronics, electric vehicles, renewable energy resources, and distributed energy storage.
 
