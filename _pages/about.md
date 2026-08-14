@@ -31,9 +31,12 @@ latest_posts:
     I'm an undergraduate at the <strong>Hanoi University of Science and Technology (HUST)</strong>, majoring in Control and Automation Engineering, with a research focus on intelligent control (Fuzzy Logic, Neural Networks) and dynamic optimization (MPC, Reinforcement Learning). My long-term interest is applying reinforcement learning and optimal control methods to autonomous systems and robotics.
   </p>
   <p>
-    I'm currently a Research Assistant at the <strong>Multi-Agent System Control (MASC) Laboratory</strong>, SEEE, HUST, supervised by Assoc. Prof. Hoai Nam Nguyen, where I work on hybrid flight control frameworks combining Deep Reinforcement Learning with Model Predictive Control and ANFIS for quadrotor trajectory planning and tracking. Previously, I worked at the <strong>Motion Control and Applied Robotics (MoCAR) Laboratory</strong> under Assoc. Prof. Danh Huy Nguyen, developing kinematic and dynamic models for a 6WD-6WS omnidirectional mobile robot, along with ROS2 navigation nodes and embedded firmware for real-time trajectory tracking.
+    Most of my work lives at the intersection of theory and simulation. I've built and tested control strategies ranging from intelligent control to optimal control, working through the full loop of deriving dynamics, tuning controllers, and stress-testing them in MATLAB/Simulink before anything touches real hardware.
+  </p>
+  <p>
+    I'm currently a Research Assistant at the <strong>Multi-Agent System Control (MASC) Laboratory</strong>, SEEE, HUST, supervised by Assoc. Prof. Hoai Nam Nguyen, where I work within a small team developing UAV flight control methods. My role centers on translating control theory into working implementations — designing and modeling controllers in MATLAB/Simulink, then validating and iterating on them through simulation, with Python for supporting analysis and scripting. I'm responsible for the modeling and controller-design side of the pipeline, working closely with teammates to refine and test results.
   </p>
   <p>
     Outside of research, I enjoy exploring controller design for quadrotors — from classical PID to self-tuning fuzzy and Lyapunov-based adaptive control — as a way to deepen my understanding of nonlinear control theory in practice.
-  </p>  
+  </p>
 </div>
