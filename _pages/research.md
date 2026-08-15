@@ -10,10 +10,17 @@ horizontal: false
 ---
 
 ## research vision
-My research is positioned at the intersection of control engineering, electrified transportation, power electronics, and modern power systems. I focus on developing control-oriented models, advanced control strategies, optimal energy management algorithms, and simulation/HIL platforms for energy systems with high penetration of power electronics, electric vehicles, renewable energy resources, and distributed energy storage.
+## research vision
 
-A central objective of my work is to use control engineering as a unifying methodological foundation to address the modeling, optimization, stability, and real-time implementation challenges of the energy transition. My research activities are organized around four flagship themes.
+## research vision
 
+## research vision
+
+My research is positioned at the intersection of control theory, dynamic optimization, and robotics, with a specific focus on UAV flight control. My work spans two complementary directions: **optimal control**, including Model Predictive Control (MPC), reinforcement learning (RL), and deep reinforcement learning (DRL), and **intelligent control**, including direct adaptive fuzzy control (DAFC) and deep neural-network-based control — applied to quadrotor attitude and position stabilization under nonlinear dynamics and disturbance.
+
+A central objective of my work is to bridge control theory and practical implementation: deriving nonlinear plant models, designing controllers around them, and rigorously validating performance through MATLAB/Simulink simulation before any hardware deployment. Going forward, I'm looking to extend my optimal control work further into RL and DRL, and deepen my intelligent control work with deep neural network approaches, building controllers that can handle model uncertainty and generalize across flight conditions, while keeping an eye on real-time computational feasibility.
+
+My research activities are organized around the following themes.
 # projects
 
 <!-- This is additional, not the original version -->
