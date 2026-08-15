@@ -8,12 +8,6 @@ nav_order: 3
 display_categories: [Optimal Control, Intelligent Control]
 horizontal: false
 ---
-
-## research vision
-## research vision
-
-## research vision
-
 ## research vision
 
 My research is positioned at the intersection of control theory, dynamic optimization, and robotics, with a specific focus on UAV flight control. My work spans two complementary directions: **optimal control**, including Model Predictive Control (MPC), reinforcement learning (RL), and deep reinforcement learning (DRL), and **intelligent control**, including direct adaptive fuzzy control (DAFC) and deep neural-network-based control — applied to quadrotor attitude and position stabilization under nonlinear dynamics and disturbance.
