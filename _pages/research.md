@@ -5,7 +5,7 @@ permalink: /research/
 description: 
 nav: true
 nav_order: 3
-display_categories: [Optimal Control, Intelligent Control]
+display_categories: [Optimal Control, Intelligent Control, Others]
 horizontal: false
 ---
 ## research vision
