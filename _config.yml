@@ -25,6 +25,7 @@ back_to_top: true      # set to false to disable the back to top button
 # change the blog_description: a personal blog & research updates
 # change the "project" keyword in "collections" to research
 # comment "books" in "collections" and "Jekyll Archives"
+# turn off "enable_tooltips" in "Others feature" to make research tag shows in left
 
 # -----------------------------------------------------------------------------
 # Theme
