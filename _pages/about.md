@@ -10,15 +10,45 @@ profile:
   more_info: >
     <p>Department of Automation</p>
     <p>School of Electrical and Electronics Engineering, HUST</p>
-    <div class="contact-icons mt-3" style="display: flex; flex-direction: column; gap: 8px; align-items: flex-start; font-size: 0.95rem;">
-      <div><i class="fa-solid fa-envelope"></i> <a href="mailto:yuvinh11@gmail.com">Email</a></div>
-      <div><i class="fa-brands fa-google-scholar"></i> <a href="https://scholar.google.com/citations?user=zA3ichcAAAAJ" target="_blank">Google Scholar</a></div>
-      <div><i class="fa-brands fa-orcid"></i> <a href="https://orcid.org/0009-0007-1046-0106" target="_blank">ORCID</a></div>
-      <div><i class="fa-brands fa-github"></i> <a href="https://github.com/haruzou" target="_blank">GitHub</a></div>
-      <div><i class="fa-brands fa-linkedin"></i> <a href="https://linkedin.com/in/vu-vinh" target="_blank">LinkedIn</a></div>
-      <div><i class="fa-brands fa-facebook"></i> <a href="https://facebook.com/yuvinh11" target="_blank">Facebook</a></div>
-      <div><i class="fa-solid fa-file-pdf"></i> <a href="/assets/pdf/MyCV.pdf" target="_blank">CV</a></div>
+    
+    <style>
+      .icon-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 12px;
+        max-width: 220px; /* Độ rộng vừa vặn với cột ảnh */
+      }
+      .icon-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 38px;
+        height: 38px;
+        border: 1px solid #e0e6ed;
+        border-radius: 10px;
+        color: #004385; /* Màu icon, tự động tương thích */
+        background-color: #ffffff;
+        text-decoration: none !important;
+        transition: all 0.2s ease-in-out;
+        font-size: 1.1rem;
+      }
+      .icon-box:hover {
+        border-color: #004385;
+        background-color: #f4f7fa;
+        transform: translateY(-2px);
+      }
+    </style>
+    <div class="icon-grid">
+      <a href="https://facebook.com/yuvinh11" target="_blank" class="icon-box" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="mailto:yuvinh11@gmail.com" class="icon-box" title="Email"><i class="fa-solid fa-envelope"></i></a>
+      <a href="https://github.com/haruzou" target="_blank" class="icon-box" title="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="https://linkedin.com/in/vu-vinh" target="_blank" class="icon-box" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="https://scholar.google.com/citations?user=zA3ichcAAAAJ" target="_blank" class="icon-box" title="Google Scholar"><i class="fa-brands fa-google-scholar"></i></a>
+      <a href="https://orcid.org/0009-0007-1046-0106" target="_blank" class="icon-box" title="ORCID"><i class="fa-brands fa-orcid"></i></a>
+      <a href="/assets/pdf/MyCV.pdf" target="_blank" class="icon-box" title="CV"><i class="fa-solid fa-file-pdf"></i></a>
     </div>
+    
 selected_papers: false # includes a list of papers marked as "selected={true}" #The original version is true, but i don't have any publish so turn off that function is necessary
 social: false # includes social icons at the bottom of the page ( Changed to "false" because i want to make it along prof_pic)
 
