@@ -11,10 +11,9 @@ profile:
     <p>Department of Automation</p>
     <p>School of Electrical and Electronics Engineering, HUST</p>
     
-   <div class="contact-icons mt-2" style="font-size: 1.25rem;">
-      {% include social.html %}
+  <div class="social contact-icons mt-2">
+      {% include social.liquid %}
     </div>
-    
 selected_papers: false # includes a list of papers marked as "selected={true}" #The original version is true, but i don't have any publish so turn off that function is necessary
 social: false # includes social icons at the bottom of the page ( Changed to "false" because i want to make it along prof_pic)
 
