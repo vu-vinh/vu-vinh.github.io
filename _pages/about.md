@@ -9,9 +9,9 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Hanoi, Vietnam</p>
-    <div class="social-sidebar mt-3"> #addition
-      {% include social.liquid vertical=true %} #addition
-    </div> #addition
+    <div class="social-sidebar mt-3">
+      {% include social.liquid vertical=true %}
+    </div>
 
 selected_papers: false # includes a list of papers marked as "selected={true}" #The original version is true, but i don't have any publish so turn off that function is necessary
 social: true # includes social icons at the bottom of the page
