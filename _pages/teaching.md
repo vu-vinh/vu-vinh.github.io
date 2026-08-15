@@ -3,7 +3,7 @@ layout: page
 permalink: /teaching/
 title: teaching
 description: Course materials, schedules, and resources for classes taught.
-nav: true
+nav: false # I don't want to use this page in present. But maybe in the future, i will.
 nav_order: 4
 calendar: true
 ---
