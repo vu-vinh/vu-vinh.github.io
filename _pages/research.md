@@ -14,7 +14,7 @@ My research is positioned at the intersection of modern control theory, dynamic 
 
 A central objective of my work is to bridge control theory and practical implementation: deriving nonlinear plant models, designing controllers around them, and rigorously validating performance through MATLAB/Simulink simulation before any hardware deployment. Going forward, I'm looking to extend my optimal control work further into RL and DRL, and deepen my intelligent control work with deep neural network approaches, building controllers that can handle model uncertainty and generalize across robotic platforms and operating conditions, while keeping an eye on real-time computational feasibility.
 
-My research activities are organized around the following themes.
+My research activities are organized around the following themes in Projects.
 # projects
 
 <!-- This is additional, not the original version -->
