@@ -26,6 +26,7 @@ back_to_top: true      # set to false to disable the back to top button
 # change the "project" keyword in "collections" to research
 # comment "books" in "collections" and "Jekyll Archives"
 # turn off "enable_tooltips" in "Others feature" to make research tag shows in left
+# comment all of " # Get external JSON data" because i'm using MyCV.pdf instead of resume.json
 
 # -----------------------------------------------------------------------------
 # Theme
@@ -694,20 +695,20 @@ third_party_libraries:
 # Get external JSON data
 # -----------------------------------------------------------------------------
 
-jekyll_get_json:
-  - data: resume
-    json: assets/json/resume.json # it can also be an url
+# jekyll_get_json:
+#   - data: resume
+#     json: assets/json/resume.json # it can also be an url
 
-jsonresume:
-  - basics
-  - work
-  - education
-  - publications
-  - projects
-  - volunteer
-  - awards
-  - certificates
-  - skills
-  - languages
-  - interests
-  - references
+# jsonresume:
+#   - basics
+#   - work
+#   - education
+#   - publications
+#   - projects
+#   - volunteer
+#   - awards
+#   - certificates
+#   - skills
+#   - languages
+#   - interests
+#   - references
