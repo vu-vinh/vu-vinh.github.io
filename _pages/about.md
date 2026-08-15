@@ -7,7 +7,7 @@ profile:
   align: left
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: |
+  more_info: >
     <p>Department of Automation</p>
     <p>School of Electrical and Electronics Engineering</p>
     <p></p>
