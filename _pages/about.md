@@ -9,8 +9,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Department of Automation</p>
-    <p>School of Electrical and Electronics Engineering</p>
-    <p></p>
+    <p>School of Electrical and Electronics Engineering, HUST</p>
     <div class="contact-icons mt-3" style="display: flex; flex-direction: column; gap: 8px; align-items: flex-start; font-size: 0.95rem;">
       <div><i class="fa-solid fa-envelope"></i> <a href="mailto:yuvinh11@gmail.com">Email</a></div>
       <div><i class="fa-brands fa-google-scholar"></i> <a href="https://scholar.google.com/citations?user=zA3ichcAAAAJ" target="_blank">Google Scholar</a></div>
