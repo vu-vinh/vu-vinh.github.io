@@ -12,7 +12,7 @@ profile:
     <p>School of Electrical and Electronics Engineering, HUST</p>
     
    <div class="contact-icons mt-2" style="font-size: 1.25rem;">
-      {% include social.yml %}
+      {% include social.html %}
     </div>
     
 selected_papers: false # includes a list of papers marked as "selected={true}" #The original version is true, but i don't have any publish so turn off that function is necessary
