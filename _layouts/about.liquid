@@ -5,45 +5,34 @@ layout: default
   .profile .contact-icons {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
-    margin-top: 14px;
+    gap: 12px;
+    margin-top: 16px;
   }
   .profile .contact-icons a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 42px;
-    height: 42px;
-    border-radius: 10px;
+    width: 52px;
+    height: 52px;
+    border-radius: 12px;
     border: 1px solid #dbe3ea;
     background: #fff;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
     transition: all 0.15s ease;
   }
-  .profile .contact-icons a i,
-  .profile .contact-icons a svg,
-  .profile .contact-icons a svg * {
-    color: #2563eb !important;
-    fill: #2563eb !important;
-    font-size: 1.1rem;
+  .profile .contact-icons a i {
+    font-size: 1.5rem;
   }
+  .profile .contact-icons a svg,
   .profile .contact-icons a img {
-    filter: brightness(0) saturate(100%) invert(35%) sepia(93%) saturate(1500%) hue-rotate(206deg);
-    width: 1.1rem;
-    height: 1.1rem;
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
   }
   .profile .contact-icons a:hover {
-    background: #2563eb;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
     border-color: #2563eb;
-  }
-  .profile .contact-icons a:hover i,
-  .profile .contact-icons a:hover svg,
-  .profile .contact-icons a:hover svg * {
-    color: #fff !important;
-    fill: #fff !important;
-  }
-  .profile .contact-icons a:hover img {
-    filter: brightness(0) invert(1);
   }
 </style>
 <div class="post">
