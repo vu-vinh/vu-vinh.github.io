@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://seee.hust.edu.vn/en/'> Control and Automaution Engineering / School of Electrical Engineering and Electronics (SEEE) </a>.
+subtitle: # <a href='https://seee.hust.edu.vn/en/'> Control and Automaution Engineering / School of Electrical Engineering and Electronics (SEEE) </a>.
 profile:
   align: left
   image: prof_pic.jpg
@@ -11,8 +11,8 @@ profile:
     <p>Department of Automation</p>
     <p>School of Electrical and Electronics Engineering, HUST</p>
     
-selected_papers: false # includes a list of papers marked as "selected={true}" #The original version is true, but i don't have any publish so turn off that function is necessary
-social: true # includes social icons at the bottom of the page ( Changed to "false" because i want to make it along prof_pic)
+selected_papers: false # includes a list of papers marked as "selected={true}" # The original version is true, but i don't have any publishs so turn off that function is necessary
+social: true # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
@@ -33,7 +33,7 @@ latest_posts:
    Most of my work lives at the intersection of theory and simulation: deriving nonlinear system dynamics, designing controllers around them (from decoupled MIMO MPC formulations to state-augmented adaptive laws), and validating performance in MATLAB/Simulink — with Python for supporting analysis. I'm looking to grow this further by bringing RL/DRL into my optimal control work and deep neural networks into my intelligent control work.
   </p>
   <p>
-    I'm currently a Research Assistant at the <strong>Multi-Agent System Control (MASC) Laboratory</strong>, SEEE, HUST, supervised by Assoc. Prof. Hoai Nam Nguyen, where I work on control algorithms for robotic systems within a small team, currently centered on UAV flight control. My role centers on the modeling and controller-design side of the pipeline — building plant models, configuring and debugging MPC blocks, and implementing adaptive/learning-based control laws — working closely with teammates on validation and testing.
+    I'm currently a Research Assistant at the <strong><a href='https://seee.hust.edu.vn/vi/nghien-cuu/macs/'>Multi-Agent System Control (MASC) Laboratory</strong>, SEEE, HUST, supervised by Assoc. Prof. Hoai Nam Nguyen, where I work on control algorithms for robotic systems within a small team, currently centered on UAV flight control. My role centers on the modeling and controller-design side of the pipeline — building plant models, configuring and debugging MPC blocks, and implementing adaptive/learning-based control laws — working closely with teammates on validation and testing.
   </p>
   <p>
    Outside of research, I enjoy exploring controller design more broadly across robotic platforms — from classical PID to self-tuning fuzzy and Lyapunov-based adaptive control — as a way to deepen my understanding of nonlinear control theory in practice.
