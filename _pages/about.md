@@ -10,8 +10,7 @@ profile:
   more_info: >
     <p>Department of Automation</p>
     <p>School of Electrical and Electronics Engineering, HUST</p>
-    
-  <div class="social contact-icons mt-2">
+    <div class="social contact-icons mt-2">
       {% include social.liquid %}
     </div>
 selected_papers: false # includes a list of papers marked as "selected={true}" #The original version is true, but i don't have any publish so turn off that function is necessary
