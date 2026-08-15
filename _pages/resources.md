@@ -14,7 +14,7 @@ This page collects simulation files, examples, templates, and other resources.
   <li>
     <strong>MATLAB/Simulink</strong><br>
     Matlab plot examples, can be used as templates for report, paper, thesis writing: <br>
-    <a href="https://github.com/haruzou" target="_blank" rel="noopener">GitHub download</a>
+    <a href="https://github.com/haruzou?tab=stars" target="_blank" rel="noopener">GitHub download</a>
   </li>  
 </ul>
 
