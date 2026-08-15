@@ -24,7 +24,7 @@ back_to_top: true      # set to false to disable the back to top button
 # change the blog name: Hong-Vinh VU
 # change the blog_description: a personal blog & research updates
 # change the "project" keyword in "# Collections" to research
-# comment "books" in "# Collections" and "Jekyll Archives"
+# comment "books" in "# Collections" and "# Jekyll Archives"
 # turn off "enable_tooltips" in "# Optional Features" to make research tag shows in left
 # comment all of " # Get external JSON data" because i'm using MyCV.pdf instead of resume.json
 # comment all of " external_sources:" in " # Blog"
