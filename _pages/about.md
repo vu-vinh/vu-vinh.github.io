@@ -1,6 +1,8 @@
 ---
+# using "<div style="overflow: hidden; display: block;">" make the text won't spread in profile picture field, this is my personal change
+# change the "allign:" from "right" to "left"
 layout: about
-title: About # Change to upper character "a", this is my personal change
+title: About # Change to upper character, this is my personal change
 permalink: /
 subtitle: # <a href='https://seee.hust.edu.vn/en/'> Control and Automaution Engineering / School of Electrical Engineering and Electronics (SEEE) </a>.
 profile:
