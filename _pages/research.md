@@ -1,5 +1,7 @@
 ---
-# Change the title to upper character, this is my personal change
+# change the title to upper character, this is my personal change
+# change from "projects" to "research" in "title" and "permalink"
+# change the "display_categories"
 layout: page
 title: Research
 permalink: /research/
@@ -17,8 +19,9 @@ A central objective of my work is to bridge control theory and practical impleme
 
 My research activities are organized around the following themes in Projects.
 # Projects
-
 <!-- This is additional, not the original version -->
+<!-- change all project keyword to research, except class="projects", projects_horizontal.liquid and projects.liquid -->
+
 <style>
 .projects h2.category {
   text-align: left;
@@ -29,7 +32,6 @@ My research activities are organized around the following themes in Projects.
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
-  <!-- change all project keyword to research, except projects_horizontal.liquid and projects.liquid -->
   {% for category in page.display_categories %}
   <a id="{{ category }}" href=".#{{ category }}">
     <h2 class="category">{{ category }}</h2>
