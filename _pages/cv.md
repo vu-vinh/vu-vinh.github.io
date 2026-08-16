@@ -1,14 +1,15 @@
 ---
+#  don't know to add something in " description:"
+# i removed these because i'm using MyCV.pdf:
+# cv_format: rendercv # options: rendercv, jsonresume
+# toc:
+#   sidebar: left
 layout: page
 permalink: /cv/
 title: CV
 nav: true
 nav_order: 6
-description: #blank text, don't know to add something??
-# i removed these because i'm using MyCV.pdf:
-# cv_format: rendercv # options: rendercv, jsonresume
-# toc:
-#   sidebar: left
+description: #blank
 ---
 [Download my CV in PDF]({{ 'assets/pdf/MyCV.pdf' | relative_url }})
 
