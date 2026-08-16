@@ -1,9 +1,12 @@
 ---
+# change the "title" to upper character, this is my personal change
+# change the state of "nav' from "true to "false"
+ # I don't want to use this page in present. But maybe in the future, i will.
 layout: page
 permalink: /teaching/
-title: Teaching # Change to upper character, this is my personal change
+title: Teaching
 description: Course materials, schedules, and resources for classes taught.
-nav: false # I don't want to use this page in present. But maybe in the future, i will.
+nav: false
 nav_order: 4
 calendar: true
 ---
