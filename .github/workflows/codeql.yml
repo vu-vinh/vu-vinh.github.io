@@ -8,6 +8,8 @@
 # We have attempted to detect the languages in your repository. Please check
 # the `language` matrix defined below to confirm you have the correct set of
 # supported CodeQL languages.
+
+
 # Added new conditon which will skip when change the state of repo to private,
 # analyze:
 #    if: ${{ !github.event.repository.private }} # This line mean it will skip the codeQL check when repo is private ( it's personal addition, not al-folio's origin)
