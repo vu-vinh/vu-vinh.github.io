@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /blog/
-title: Blog # Change to upper character "b", this is my personal change
+title: Blog # Change to upper character, this is my personal change
 nav: true
 nav_order: 1
 pagination:
