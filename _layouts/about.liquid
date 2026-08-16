@@ -16,24 +16,28 @@ layout: default
     width: 52px;
     height: 52px;
     border-radius: 12px;
-    border: 1px solid #dbe3ea;
-    background: #fff;
+    background: #0076df;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
     transition: all 0.15s ease;
   }
   .profile .contact-icons a i {
     font-size: 1.5rem;
+    color: #fff;
+  }
+  .profile .contact-icons a i::before {
+    color: #fff;
   }
   .profile .contact-icons a svg,
   .profile .contact-icons a img {
     width: 28px;
     height: 28px;
     object-fit: contain;
+    filter: brightness(0) invert(1);
   }
   .profile .contact-icons a:hover {
+    background: #005fb8;
     transform: translateY(-2px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
-    border-color: #2563eb;
   }
 </style>
 <div class="post">
