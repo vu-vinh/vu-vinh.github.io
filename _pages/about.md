@@ -1,5 +1,5 @@
 ---
-layout: About
+layout: about
 title: About # Change to upper character "a", this is my personal change
 permalink: /
 subtitle: # <a href='https://seee.hust.edu.vn/en/'> Control and Automaution Engineering / School of Electrical Engineering and Electronics (SEEE) </a>.
