@@ -1,5 +1,5 @@
 ---
-# Change the "title" to upper character, this is my personal change
+# change the "title" to upper character, this is my personal change
 layout: default
 permalink: /blog/
 title: Blog 
