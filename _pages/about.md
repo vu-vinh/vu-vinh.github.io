@@ -1,7 +1,7 @@
 ---
 # using "<div style="overflow: hidden; display: block;">" make the text won't spread in profile picture field, this is my personal change
 # change the "allign:" from "right" to "left"
-# Change the tilte to upper character, this is my personal change
+# Change the title to upper character, this is my personal change
 # The original version of "selected_papers" is true, but i don't have any publishs so turn off that function is necessary
 layout: about
 title: About
