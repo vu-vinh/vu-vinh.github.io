@@ -1,8 +1,10 @@
 ---
 # using "<div style="overflow: hidden; display: block;">" make the text won't spread in profile picture field, this is my personal change
 # change the "allign:" from "right" to "left"
+# Change the tilte to upper character, this is my personal change
+# The original version of "selected_papers" is true, but i don't have any publishs so turn off that function is necessary
 layout: about
-title: About # Change to upper character, this is my personal change
+title: About
 permalink: /
 subtitle: # <a href='https://seee.hust.edu.vn/en/'> Control and Automaution Engineering / School of Electrical Engineering and Electronics (SEEE) </a>.
 profile:
@@ -13,7 +15,7 @@ profile:
     <p>Department of Automation</p>
     <p>School of Electrical and Electronics Engineering, HUST</p>
     
-selected_papers: false # includes a list of papers marked as "selected={true}" # The original version is true, but i don't have any publishs so turn off that function is necessary
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
