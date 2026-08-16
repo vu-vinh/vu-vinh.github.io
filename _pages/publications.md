@@ -1,5 +1,5 @@
 ---
-# Change the tilte to upper character, this is my personal change
+# change the "title" to upper character, this is my personal change
 layout: page
 permalink: /publications/
 title: Publications
