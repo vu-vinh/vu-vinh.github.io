@@ -1,6 +1,8 @@
 ---
+# change the "title" to upper character, this is my personal change
+# this is my custom page
 layout: page
-title: Resources # Change to upper character, this is my personal change
+title: Resources
 permalink: /resources/
 nav: true
 nav_order: 5
