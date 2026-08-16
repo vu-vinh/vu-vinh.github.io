@@ -1,6 +1,7 @@
 ---
+# Change the title to upper character, this is my personal change
 layout: page
-title: Research # Change to upper character, this is my personal change
+title: Research
 permalink: /research/
 description: 
 nav: true
