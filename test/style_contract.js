@@ -1,4 +1,4 @@
-//i'm using the custom _layouts so that i must comment the "_layouts" in:
+//i'm using the custom _layouts so that i must to comment the "_layouts" in:
 //for (const forbiddenPath of [
 //  "_includes",
 //  // "_layouts",// comment this
