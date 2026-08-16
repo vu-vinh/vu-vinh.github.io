@@ -43,22 +43,20 @@ layout: default
     object-fit: contain;
     filter: brightness(0) invert(1);
   }
+  .profile .contact-icons a i.fa-facebook,
+  .profile .contact-icons a i.fa-facebook-f,
+  .profile .contact-icons a i.fa-github,
+  .profile .contact-icons a i.fa-linkedin,
+  .profile .contact-icons a i.fa-linkedin-in,
+  .profile .contact-icons a i.fa-orcid {
+    font-size: 3.6rem;
+  }
   .profile .contact-icons a:hover {
     background: #005fb8;
     transform: translateY(-2px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
   }
 </style>
-<div class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
-      {% endif %}
-    </h1>
     <p class="desc">{{ page.subtitle }}</p>
   </header>
   <article>
