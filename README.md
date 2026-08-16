@@ -263,7 +263,6 @@ Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.
   - [Documentation](#documentation)
   - [Features](#features)
     - [Light/Dark Mode](#lightdark-mode)
-    - [CV](#cv)
     - [People](#people)
     - [Publications](#publications)
     - [Collections](#collections)
@@ -278,12 +277,8 @@ Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.
       - [Atom (RSS-like) Feed](#atom-rss-like-feed)
       - [Related posts](#related-posts)
       - [Code quality checks](#code-quality-checks)
-      - [GDPR Cookie Consent Dialog](#gdpr-cookie-consent-dialog)
   - [FAQ](#faq)
   - [Contributing](#contributing)
-    - [Maintainers](#maintainers)
-    - [All Contributors](#all-contributors)
-  - [Star History](#star-history)
   - [License](#license)
 
 <!--te-->
@@ -522,7 +517,6 @@ For frequently asked questions, please refer to [docs/FAQ.md](docs/FAQ.md).
 Contributions to al-folio are very welcome! Before you get started, please take a look at [the guidelines](docs/CONTRIBUTING.md).
 
 If you would like to improve documentation or fix a minor inconsistency or bug, please feel free to send a PR directly to `main`. For more complex issues/bugs or feature requests, please open an issue using the appropriate template.
-
 
 ## License
 
