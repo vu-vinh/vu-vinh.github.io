@@ -1,6 +1,6 @@
 ---
 layout: page
-title: resources
+title: Resources # Change to upper character, this is my personal change
 permalink: /resources/
 nav: true
 nav_order: 5
