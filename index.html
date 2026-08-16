@@ -58,6 +58,14 @@
   .profile .contact-icons a i.fa-orcid {
     font-size: 3.2rem;
   }
+  .profile .contact-icons a[href*="orcid.org"] {
+    background: #0076df !important;
+    border: none !important;
+  }
+  .profile .contact-icons a[href*="orcid.org"] svg,
+  .profile .contact-icons a[href*="orcid.org"] img {
+    filter: brightness(0) invert(1) !important;
+  }
   .profile .contact-icons a:hover {
     background: #005fb8;
     transform: translateY(-2px);
