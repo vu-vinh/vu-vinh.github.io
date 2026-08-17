@@ -16,56 +16,76 @@ layout: default
     justify-content: center;
     width: 52px;
     height: 52px;
-    border-radius: 12px; /* Smooth rounded squircle corners */
-    background: #ff2a38; /* Bright red background */
+    border-radius: 12px;
+    background: #ff2a38;
     box-shadow: none;
     transition: all 0.2s ease-in-out;
     text-decoration: none;
+    overflow: hidden;
   }
 
-  /* FontAwesome / Icon font styling */
+  /* FontAwesome & Icon font overrides */
   .profile .contact-icons a i {
-    font-size: 2.2rem;
+    font-size: 2rem !important;
     color: #ffffff !important;
+    background: transparent !important;
+    border-radius: 0 !important;
   }
 
   .profile .contact-icons a i::before {
     color: #ffffff !important;
   }
 
-  /* SVG icon styling */
+  /* Remove circle fills on FontAwesome icons */
+  .profile .contact-icons a i.fa-facebook,
+  .profile .contact-icons a i.fa-facebook-f,
+  .profile .contact-icons a i.fa-github,
+  .profile .contact-icons a i.fa-orcid {
+    background-color: transparent !important;
+    border-radius: 0 !important;
+  }
+
+  /* SVG icon overrides (ORCID, Academicons, Academic icons) */
   .profile .contact-icons a svg {
     width: 32px;
     height: 32px;
     fill: #ffffff !important;
     color: #ffffff !important;
+    background: transparent !important;
   }
 
-  .profile .contact-icons a svg * {
+  /* Make SVG inner shapes white while removing background circle overlays */
+  .profile .contact-icons a svg path,
+  .profile .contact-icons a svg circle,
+  .profile .contact-icons a svg rect {
     fill: #ffffff !important;
-    stroke: #ffffff !important;
+    stroke: none !important;
   }
 
-  /* Image icon styling */
+  /* Invert image icons (like ORCID PNG/SVG images) without white circle wrappers */
   .profile .contact-icons a img {
     width: 32px;
     height: 32px;
     object-fit: contain;
     filter: brightness(0) invert(1);
+    background: transparent !important;
+    border-radius: 0 !important;
   }
 
-  /* Specific FontAwesome sizing fine-tuning */
-  .profile .contact-icons a i.fa-facebook-f,
-  .profile .contact-icons a i.fa-github,
-  .profile .contact-icons a i.fa-linkedin-in,
-  .profile .contact-icons a i.fa-orcid,
-  .profile .contact-icons a i.fa-envelope {
-    font-size: 2.2rem;
+  /* Ensure ORCID specific link wrapper stays transparent inside the red tile */
+  .profile .contact-icons a[href*="orcid.org"] {
+    background: #ff2a38 !important;
+  }
+
+  .profile .contact-icons a[href*="orcid.org"] svg,
+  .profile .contact-icons a[href*="orcid.org"] img {
+    filter: brightness(0) invert(1) !important;
+    background: transparent !important;
   }
 
   /* Hover effect */
   .profile .contact-icons a:hover {
-    background: #e01f2d; /* Slightly darker red on hover */
+    background: #e01f2d;
     transform: translateY(-2px);
     box-shadow: 0 4px 10px rgba(255, 42, 56, 0.3);
   }
