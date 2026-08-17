@@ -244,7 +244,6 @@ Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.
 
 ## Table Of Contents
 
-
 ## Plugin Ecosystem
 
 `al-folio` is a thin starter in `v1.x`. Runtime features are plugin-owned and published as Ruby gems.
