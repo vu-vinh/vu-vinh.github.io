@@ -244,71 +244,6 @@ Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.
 
 ## Table Of Contents
 
-<!--ts-->
-
-- [al-folio](#al-folio)
-  - [User community](#user-community)
-  - [Lighthouse PageSpeed Insights](#lighthouse-pagespeed-insights)
-    - [Desktop](#desktop)
-    - [Mobile](#mobile)
-  - [Table Of Contents](#table-of-contents)
-  - [Getting started](#getting-started)
-  - [Installing and Deploying](#installing-and-deploying)
-  - [Customizing](#customizing)
-  - [Plugin Ecosystem](#plugin-ecosystem)
-  - [Using AI Agents](#using-ai-agents)
-    - [Codex](#codex)
-    - [Claude](#claude)
-    - [Copilot And Other Agents](#copilot-and-other-agents)
-  - [Documentation](#documentation)
-  - [Features](#features)
-    - [Light/Dark Mode](#lightdark-mode)
-    - [People](#people)
-    - [Publications](#publications)
-    - [Collections](#collections)
-    - [Layouts](#layouts)
-      - [The iconic style of Distill](#the-iconic-style-of-distill)
-      - [Full support for math &amp; code](#full-support-for-math--code)
-      - [Photos, Audio, Video and more](#photos-audio-video-and-more)
-    - [Other features](#other-features)
-      - [GitHub's repositories and user stats](#githubs-repositories-and-user-stats)
-      - [Theming](#theming)
-      - [Social media previews](#social-media-previews)
-      - [Atom (RSS-like) Feed](#atom-rss-like-feed)
-      - [Related posts](#related-posts)
-      - [Code quality checks](#code-quality-checks)
-  - [FAQ](#faq)
-  - [Contributing](#contributing)
-  - [License](#license)
-
-<!--te-->
-
-## Getting started
-
-**⚠️ Important: Use "Use this template" (not fork)**
-
-When creating your own website with al-folio, you have two options:
-
-- ✅ **Recommended:** Click "[Use this template](https://github.com/new?template_name=al-folio&template_owner=alshedivat)" – This creates a clean copy that is independent from the main al-folio repository. Changes you make to your site won't be accidentally submitted to al-folio as pull requests.
-- ❌ **Not recommended:** Forking the repository – This keeps a link to the main al-folio repo, making it easy to accidentally submit your personal site changes as contributions to our project.
-
-**If you already forked:** Don't worry! You can still work with your fork normally. Just make sure to:
-
-1. Make changes on a dedicated branch (e.g., `my-site-updates`)
-2. When pushing changes, always verify you're pushing to **your own repository**, not the main al-folio repository
-3. Never create pull requests to `alshedivat/al-folio` unless you're intentionally contributing improvements that benefit all users
-
-For quick setup, see [docs/QUICKSTART.md](docs/QUICKSTART.md).
-
-Want to learn more about Jekyll? Check out [this tutorial](https://www.taniarascia.com/make-a-static-website-with-jekyll/). Why Jekyll? Read [Andrej Karpathy's blog post](https://karpathy.github.io/2014/07/01/switching-to-jekyll/)! Why write a blog? Read [Rachel Thomas blog post](https://medium.com/@racheltho/why-you-yes-you-should-blog-7d2544ac1045).
-
-## Installing and Deploying
-
-For installation and deployment details please refer to [docs/INSTALL.md](docs/INSTALL.md).
-
-## Customizing
-
-For customization details please refer to [docs/CUSTOMIZE.md](docs/CUSTOMIZE.md).
 
 ## Plugin Ecosystem
 
@@ -362,10 +297,6 @@ Useful first prompts:
 
 Claude should start from [CLAUDE.md](CLAUDE.md), which imports [AGENTS.md](AGENTS.md). For setup or migration tasks, use the matching skill from `.claude/skills/`, which points to the canonical `.agents/skills/` directory.
 
-### Copilot And Other Agents
-
-Copilot should follow [.github/copilot-instructions.md](.github/copilot-instructions.md) and the specialized agents in [.github/agents/](.github/agents/). Other agents should follow the same rule: keep starter work in this repo, route runtime behavior to the owning `al-org-dev` plugin, and run `bundle exec al-folio upgrade overrides audit` whenever local overrides are added or retained.
-
 ## Documentation
 
 Comprehensive guides for all aspects of your al-folio website:
@@ -390,14 +321,6 @@ This template has a built-in light/dark mode. It detects the user preferred colo
 <img src="readme_preview/light.png" width=400>
 <img src="readme_preview/dark.png" width=400>
 </p>
-
----
-
-### People
-
-You can create a people page if you want to feature more than one person. Each person can have its own short bio, profile picture, and you can also set if every person will appear at the same or opposite sides.
-
-[![People Preview](readme_preview/people.png)](https://alshedivat.github.io/al-folio/people/)
 
 ---
 
@@ -455,16 +378,6 @@ Photo formatting is made simple using Tailwind-first responsive layout utilities
 ---
 
 ### Other features
-
-#### GitHub's repositories and user stats
-
-**al-folio** displays GitHub repositories and user stats on the `/repositories/` page using [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) and [github-profile-trophy](https://github.com/ryo-ma/github-profile-trophy).
-
-[![Repositories Preview](readme_preview/repositories.png)](https://alshedivat.github.io/al-folio/repositories/)
-
-To configure which repositories and GitHub profiles to display, see [Modifying the user and repository information](docs/CUSTOMIZE.md#modifying-the-user-and-repository-information) in [docs/CUSTOMIZE.md](docs/CUSTOMIZE.md).
-
----
 
 #### Theming
 
