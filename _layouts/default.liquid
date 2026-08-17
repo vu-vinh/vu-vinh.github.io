@@ -4,7 +4,7 @@
 {%- endcomment -%}
 {%- comment -%}
   al_rtl owns the language and direction attributes when it is installed, because
-  `dir` has to sit on <html> for the browser's bidi handling, CSS logical
+  dir has to sit on <html> for the browser's bidi handling, CSS logical
   properties and Tailwind's rtl: variant to apply to the whole document.
   Captured into a variable rather than wrapping the <html> tag in a conditional:
   a conditional there stops the tag being a single static element, and Prettier
@@ -34,12 +34,10 @@
     {% include head.liquid %}
     <style>
       :root {
-        --global-theme-color: #0076df;
-        --global-hover-color: #0076df;
-      }
-      html {
-        overflow-y: auto;
-        scrollbar-gutter: stable;
+        --global-theme-color: 
+#0076df;
+        --global-hover-color: 
+#0076df;
       }
     </style>
   </head>
