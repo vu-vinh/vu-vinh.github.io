@@ -1,6 +1,6 @@
 ---
 layout: default
-# This file is "custom" ( not the original file). This make the social icons show under profile picture and adjust the interface of icons
+# This file is "custom" (not the original file). This makes the social icons show under profile picture and adjust the interface of icons
 ---
 <style>
   .profile .contact-icons {
@@ -9,86 +9,72 @@ layout: default
     gap: 12px;
     margin-top: 16px;
   }
-
   .profile .contact-icons a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 52px;
-    height: 52px;
+    width: 56px;
+    height: 56px;
     border-radius: 12px;
-    background: #ff2a38;
-    box-shadow: none;
-    transition: all 0.2s ease-in-out;
-    text-decoration: none;
-    overflow: hidden;
+    background: #0076df;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+    transition: all 0.15s ease;
   }
-
-  /* FontAwesome & Icon font overrides */
   .profile .contact-icons a i {
-    font-size: 2rem !important;
-    color: #ffffff !important;
-    background: transparent !important;
-    border-radius: 0 !important;
+    font-size: 3rem;
+    color: #fff !important;
   }
-
   .profile .contact-icons a i::before {
-    color: #ffffff !important;
+    color: #fff !important;
   }
-
-.profile .contact-icons a i.fa-square-facebook,
-.profile .contact-icons a i.fa-square-github,
-.profile .contact-icons a i.fa-linkedin,
-.profile .contact-icons a i.fa-linkedin-in,
-.profile .contact-icons a i.fa-orcid {
-  font-size: 3.2rem;
-}
-
-  /* SVG icon overrides (ORCID, Academicons, Academic icons) */
   .profile .contact-icons a svg {
-    width: 32px;
-    height: 32px;
-    fill: #ffffff !important;
-    color: #ffffff !important;
-    background: transparent !important;
+    width: 46px;
+    height: 46px;
+    fill: #fff !important;
+    color: #fff !important;
   }
-
-  /* Make SVG inner shapes white while removing background circle overlays */
-  .profile .contact-icons a svg path,
-  .profile .contact-icons a svg circle,
-  .profile .contact-icons a svg rect {
-    fill: #ffffff !important;
-    stroke: none !important;
+  .profile .contact-icons a svg * {
+    fill: #fff !important;
+    stroke: #fff !important;
   }
-
-  /* Invert image icons (like ORCID PNG/SVG images) without white circle wrappers */
   .profile .contact-icons a img {
-    width: 32px;
-    height: 32px;
+    width: 44px;
+    height: 44px;
     object-fit: contain;
     filter: brightness(0) invert(1);
-    background: transparent !important;
-    border-radius: 0 !important;
   }
-
-  /* Ensure ORCID specific link wrapper stays transparent inside the red tile */
+  .profile .contact-icons a i.fa-square-facebook,
+  .profile .contact-icons a i.fa-square-github,
+  .profile .contact-icons a i.fa-linkedin,
+  .profile .contact-icons a i.fa-linkedin-in,
+  .profile .contact-icons a i.fa-orcid {
+    font-size: 3.2rem;
+  }
   .profile .contact-icons a[href*="orcid.org"] {
-    background: #ff2a38 !important;
+    background: #0076df !important;
+    border: none !important;
   }
-
   .profile .contact-icons a[href*="orcid.org"] svg,
   .profile .contact-icons a[href*="orcid.org"] img {
     filter: brightness(0) invert(1) !important;
-    background: transparent !important;
   }
-
-  /* Hover effect */
   .profile .contact-icons a:hover {
-    background: #e01f2d;
+    background: #005fb8;
     transform: translateY(-2px);
-    box-shadow: 0 4px 10px rgba(255, 42, 56, 0.3);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
   }
 </style>
+
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">
+      {% if site.title == 'blank' %}
+        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+        {{ site.last_name }}
+      {% else %}
+        {{ site.title }}
+      {% endif %}
+    </h1>
     <p class="desc">{{ page.subtitle }}</p>
   </header>
   <article>
@@ -99,11 +85,9 @@ layout: default
           {% if page.profile.image_circular %}
             {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
           {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
           {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
+          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
           {%
             include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
             cache_bust=true
