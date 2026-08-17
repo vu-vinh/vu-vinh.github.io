@@ -1,13 +1,11 @@
 <!doctype html>
 {%- comment -%}
   This file is "custom" ( not the original file), this make the "character theme" become "blue color" ( the original ones is "pink")
-
 {%- endcomment -%}
 {%- comment -%}
   al_rtl owns the language and direction attributes when it is installed, because
   `dir` has to sit on <html> for the browser's bidi handling, CSS logical
   properties and Tailwind's rtl: variant to apply to the whole document.
-
   Captured into a variable rather than wrapping the <html> tag in a conditional:
   a conditional there stops the tag being a single static element, and Prettier
   then re-indents the entire document body. The guard keeps this parse-safe —
@@ -39,14 +37,16 @@
         --global-theme-color: #0076df;
         --global-hover-color: #0076df;
       }
+      html {
+        overflow-y: scroll;
+        scrollbar-gutter: stable;
+      }
     </style>
   </head>
-
   <!-- Body -->
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
     <!-- Header -->
     {% include header.liquid %}
-
     <!-- Content -->
     <div class="container mt-5" role="main">
       {% if page.toc and page.toc.sidebar %}
@@ -87,10 +87,8 @@
         {{ content }}
       {% endif %}
     </div>
-
     <!-- Footer -->
     {% include footer.liquid %}
-
     <!-- JavaScripts -->
     {% include scripts.liquid %}
   </body>
