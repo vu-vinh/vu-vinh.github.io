@@ -4,7 +4,9 @@
 
 cv_pdf: /assets/pdf/MyCV.pdf # path to your CV PDF file
 email: yuvinh11@gmail.com # your email address
-facebook_id: yuvinh11 # if theme supports it #This is additional, not the original version
+facebook_id: # if theme supports it #This is additional, not the original version
+  value: yuvinh11
+  logo: fa-brands fa-facebook-f
 #inspirehep_id: 1010907 # Inspire HEP author ID
 #rss_icon: true # comment this line to hide the RSS icon
 github_username: haruzou # this is additional, not the original version
