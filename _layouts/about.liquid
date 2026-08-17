@@ -9,58 +9,67 @@ layout: default
     gap: 12px;
     margin-top: 16px;
   }
+
   .profile .contact-icons a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 56px;
-    height: 56px;
-    border-radius: 12px;
-    background: #0076df;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
-    transition: all 0.15s ease;
+    width: 52px;
+    height: 52px;
+    border-radius: 12px; /* Smooth rounded squircle corners */
+    background: #ff2a38; /* Bright red background */
+    box-shadow: none;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
   }
+
+  /* FontAwesome / Icon font styling */
   .profile .contact-icons a i {
-    font-size: 3rem;
-    color: #fff !important;
+    font-size: 2.2rem;
+    color: #ffffff !important;
   }
+
   .profile .contact-icons a i::before {
-    color: #fff !important;
+    color: #ffffff !important;
   }
+
+  /* SVG icon styling */
   .profile .contact-icons a svg {
-    width: 46px;
-    height: 46px;
-    fill: #fff !important;
-    color: #fff !important;
+    width: 32px;
+    height: 32px;
+    fill: #ffffff !important;
+    color: #ffffff !important;
   }
+
   .profile .contact-icons a svg * {
-    fill: #fff !important;
-    stroke: #fff !important;
+    fill: #ffffff !important;
+    stroke: #ffffff !important;
   }
+
+  /* Image icon styling */
   .profile .contact-icons a img {
-    width: 44px;
-    height: 44px;
+    width: 32px;
+    height: 32px;
     object-fit: contain;
     filter: brightness(0) invert(1);
   }
+
+  /* Specific FontAwesome sizing fine-tuning */
   .profile .contact-icons a i.fa-facebook-f,
   .profile .contact-icons a i.fa-github,
   .profile .contact-icons a i.fa-linkedin-in,
-  .profile .contact-icons a i.fa-orcid {
-    font-size: 3.2rem;
+  .profile .contact-icons a i.fa-orcid,
+  .profile .contact-icons a i.fa-tumblr,
+  .profile .contact-icons a i.fa-twitter,
+  .profile .contact-icons a i.fa-envelope {
+    font-size: 2.2rem;
   }
-  .profile .contact-icons a[href*="orcid.org"] {
-    background: #0076df !important;
-    border: none !important;
-  }
-  .profile .contact-icons a[href*="orcid.org"] svg,
-  .profile .contact-icons a[href*="orcid.org"] img {
-    filter: brightness(0) invert(1) !important;
-  }
+
+  /* Hover effect */
   .profile .contact-icons a:hover {
-    background: #005fb8;
+    background: #e01f2d; /* Slightly darker red on hover */
     transform: translateY(-2px);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 4px 10px rgba(255, 42, 56, 0.3);
   }
 </style>
     <p class="desc">{{ page.subtitle }}</p>
