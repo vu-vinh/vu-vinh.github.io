@@ -28,6 +28,13 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+<style>
+  @media (max-width: 576px) {
+    .about-content {
+      clear: both;
+    }
+  }
+  </style>
 <div style="overflow: hidden; display: block;">
   <!-- This is an addition, not the original version. It solved the problem that the picture is floating so the content will overflow in the picture's field -->
   <p>
