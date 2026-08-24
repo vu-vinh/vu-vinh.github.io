@@ -35,7 +35,7 @@ latest_posts:
     }
   }
   </style>
-<div style="overflow: hidden; display: block;">
+<div class="about-content" style="overflow: hidden; display: block;">
   <!-- This is an addition, not the original version. It solved the problem that the picture is floating so the content will overflow in the picture's field -->
   <p>
     I'm an undergraduate at <strong>Hanoi University of Science and Technology (HUST)</strong>, majoring in Control and Automation Engineering, with a research focus on modern control theory for robotics, spanning both optimal control (Model Predictive Control, and — going forward — reinforcement learning and deep reinforcement learning) and intelligent control (direct adaptive fuzzy control and deep neural-network-based control). My long-term interest is applying optimization-based and learning-based control methods to autonomous robotic systems.
