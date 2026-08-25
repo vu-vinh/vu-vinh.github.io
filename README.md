@@ -314,17 +314,6 @@ Comprehensive guides for all aspects of your al-folio website:
 
 ## Features
 
-### Light/Dark Mode
-
-This template has a built-in light/dark mode. It detects the user preferred color scheme and automatically switches to it. You can also manually switch between light and dark mode by clicking on the sun/moon icon in the top right corner of the page.
-
-<p align="center">
-<img src="readme_preview/light.png" width=400>
-<img src="readme_preview/dark.png" width=400>
-</p>
-
----
-
 ### Publications
 
 Your publications page is generated automatically from your BibTeX bibliography. You can customize publication display, add extra information like PDFs, and control sorting behavior.
