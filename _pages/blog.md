@@ -1,9 +1,10 @@
 ---
 # change the "title" to upper character, this is my personal change
+# change the "nav" to "false"
 layout: default
 permalink: /blog/
 title: Blog 
-nav: true
+nav: false
 nav_order: 1
 pagination:
   enabled: true
