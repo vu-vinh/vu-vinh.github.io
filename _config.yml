@@ -2,6 +2,16 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
+# change the blog name: Hong-Vinh Vu
+# update the "blog_description:" in "# Blog" become: A personal blog & research updates
+# update the "blog_name:" in "# Blog" to my name
+# change the "project" keyword in "# Collections" to research
+# comment "books" in "# Collections" and "# Jekyll Archives"
+# change the "enable_tooltips" in "# Optional Features" from "true" to "false", it make research tag shows in left
+# comment all of " # Get external JSON data" because i'm using MyCV.pdf instead of resume.json
+# comment all of " external_sources:" in " # Blog"
+# change the "footer_fixed" in "# Layouts" from "true" to "false"
+
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Hong-Vinh
 #middle_name: R.
@@ -21,15 +31,6 @@ baseurl: #/al-folio    # the subpath of your site, e.g. /blog/. Leave blank for 
 last_updated: true     # set to true if you want to display last updated in the footer
 impressum_path:        # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true      # set to false to disable the back to top button
-# change the blog name: Hong-Vinh Vu
-# update the "blog_description:" in "# Blog" become: A personal blog & research updates
-# update the "blog_name:" in "# Blog" to my name
-# change the "project" keyword in "# Collections" to research
-# comment "books" in "# Collections" and "# Jekyll Archives"
-# change the "enable_tooltips" in "# Optional Features" from "true" to "false", it make research tag shows in left
-# comment all of " # Get external JSON data" because i'm using MyCV.pdf instead of resume.json
-# comment all of " external_sources:" in " # Blog"
-# change the "footer_fixed" in "# Layouts" from "true" to "false"
 
 # -----------------------------------------------------------------------------
 # Theme
