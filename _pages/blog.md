@@ -1,11 +1,12 @@
 ---
 # change the "title" to upper character, this is my personal change
-# change the "nav" to "false"
+# added "hidden" state
 layout: default
 permalink: /blog/
 title: Blog 
-nav: false
+nav: true
 nav_order: 1
+hidden: true
 pagination:
   enabled: true
   collection: posts
