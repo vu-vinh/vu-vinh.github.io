@@ -2,6 +2,8 @@
 # change the title to upper character, this is my personal change
 # change from "projects" to "research" in "title" and "permalink"
 # change the "display_categories"
+# change all "project" keyword to "research", except class="projects", projects_horizontal.liquid and projects.liquid 
+
 layout: page
 title: Research
 permalink: /research/
@@ -19,9 +21,6 @@ A central objective of my work is to bridge control theory and practical impleme
 
 My research activities are organized around the following themes in Projects.
 # Projects
-<!-- This is additional, not the original version -->
-<!-- change all project keyword to research, except class="projects", projects_horizontal.liquid and projects.liquid -->
-
 <style>
 .projects h2.category {
   text-align: left;
