@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://haruzou.github.io/sitemap.xml
+Sitemap: https://vinhvu.io.vn/sitemap.xml
