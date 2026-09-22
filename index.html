@@ -14,8 +14,8 @@
       }
     </style> </head> <body class="fixed-top-nav sticky-bottom-footer"> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item active"> <a class="nav-link" href="/">About <span class="sr-only">(current)</span> </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">Publications </a> </li> <li class="nav-item "> <a class="nav-link" href="/research/">Research </a> </li> <li class="nav-item "> <a class="nav-link" href="/resources/">Resources </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">CV </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <style>
   .profile .contact-icons {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 50px);
     gap: 12px;
     margin-top: 16px;
   }
@@ -67,13 +67,48 @@
     transform: translateY(-2px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
   }
-</style> <div class="post"> <header class="post-header"> <h1 class="post-title"> <span class="font-weight-bold">Hong-Vinh</span> Vu </h1> <p class="desc"></p> </header> <article> <div class="profile float-left"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/prof_pic-480.webp 480w,/assets/img/prof_pic-800.webp 800w,/assets/img/prof_pic-1400.webp 1400w," type="image/webp" sizes="(min-width: 930px) 270.0px, (min-width: 576px) 30vw, 95vw"> <img src="/assets/img/prof_pic.jpg?v=5575e18c4bba96699d763b978c58587e" class="img-fluid z-depth-1 rounded" width="100%" height="auto" alt="prof_pic.jpg" loading="eager" onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"> </source></picture> </figure> <div class="more-info"> <p>Control and Automation Engineering</p> <p>School of Electrical and Electronics Engineering, HUST</p> </div> <div class="social"> <div class="contact-icons"> <a href="/assets/pdf/MyCV.pdf" title="Cv pdf"><i class="ai ai-cv"></i></a> <a href="mailto:yuvinh11@gmail.com" title="Email"><i class="fa-solid fa-envelope"></i></a> <a href="https://facebook.com/yuvinh11" title="Facebook id" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-facebook-f"></i></a> <a href="https://github.com/haruzou" title="Github username" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i></a> <a href="https://www.linkedin.com/in/vuvinh" title="Linkedin username" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a> <a href="https://scholar.google.com/citations?user=zA3ichcAAAAJ" title="Scholar userid" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i></a> <a href="https://orcid.org/0009-0007-1046-0106" title="Orcid id" rel="external nofollow noopener" target="_blank"><i class="ai ai-orcid"></i></a> </div> <div class="contact-note"></div> </div> </div> <div class="clearfix"> <style>
+  .profile .cv-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 174px;
+    max-width: 100%;
+    min-height: 58px;
+    gap: 10px;
+    margin-top: 14px;
+    padding: 12px;
+    border: 1px solid #28679a;
+    border-radius: 10px;
+    color: #fff;
+    background: #28679a;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    transition: transform 0.15s, background 0.15s, box-shadow 0.15s;
+  }
+  .profile .cv-link:hover {
+    color: #fff;
+    background: #215a88;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.14);
+    text-decoration: none;
+    transform: translateY(-1px);
+  }
+  .profile .cv-link svg {
+    width: 25px;
+    height: 25px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+</style> <div class="post"> <header class="post-header"> <h1 class="post-title"> <span class="font-weight-bold">Hong-Vinh</span> Vu </h1> <p class="desc"></p> </header> <article> <div class="profile float-left"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/prof_pic-480.webp 480w,/assets/img/prof_pic-800.webp 800w,/assets/img/prof_pic-1400.webp 1400w," type="image/webp" sizes="(min-width: 930px) 270.0px, (min-width: 576px) 30vw, 95vw"> <img src="/assets/img/prof_pic.jpg?v=5575e18c4bba96699d763b978c58587e" class="img-fluid z-depth-1 rounded" width="100%" height="auto" alt="prof_pic.jpg" loading="eager" onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"> </source></picture> </figure> <div class="more-info"> <p>Control and Automation Engineering</p> <p>School of Electrical and Electronics Engineering, HUST</p> </div> <div class="social"> <div class="contact-icons"> <a href="mailto:yuvinh11@gmail.com" title="Email"><i class="fa-solid fa-envelope"></i></a> <a href="https://facebook.com/yuvinh11" title="Facebook id" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-facebook-f"></i></a> <a href="https://github.com/haruzou" title="Github username" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i></a> <a href="https://www.linkedin.com/in/vuvinh" title="Linkedin username" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a> <a href="https://scholar.google.com/citations?user=zA3ichcAAAAJ" title="Scholar userid" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i></a> <a href="https://orcid.org/0009-0007-1046-0106" title="Orcid id" rel="external nofollow noopener" target="_blank"><i class="ai ai-orcid"></i></a> </div> <a class="cv-link" href="/assets/pdf/MyCV.pdf" target="_blank" rel="noopener"> <svg viewbox="0 0 24 24" aria-hidden="true"> <path d="M14 3H6v18h12V7l-4-4Z"></path> <path d="M14 3v4h4"></path> </svg> <span>Download CV</span> </a> <div class="contact-note"></div> </div> </div> <div class="clearfix"> <style>
   @media (max-width: 576px) {
     .about-content {
       clear: both;
     }
   }
-  </style> <div class="about-content" style="overflow: hidden; display: block;"> <p> I'm an undergraduate at <strong>Hanoi University of Science and Technology (HUST)</strong>, majoring in Control and Automation Engineering, with a research focus on modern control theory for robotics, spanning both optimal control (Model Predictive Control, and — going forward — reinforcement learning and deep reinforcement learning) and intelligent control (direct adaptive fuzzy control and deep neural-network-based control). My long-term interest is applying optimization-based and learning-based control methods to autonomous robotic systems. </p> <p> Most of my work lives at the intersection of theory and simulation: deriving nonlinear system dynamics, designing controllers around them (from decoupled MIMO MPC formulations to state-augmented adaptive laws), and validating performance in MATLAB/Simulink — with Python for supporting analysis. I'm looking to grow this further by bringing RL/DRL into my optimal control work and deep neural networks into my intelligent control work. </p> <p> I'm currently a Research Assistant at the <strong><a href="https://seee.hust.edu.vn/vi/nghien-cuu/macs/" rel="external nofollow noopener" target="_blank">Multi-Agent System Control (MASC) Laboratory</a></strong>, SEEE, HUST, supervised by <a href="https://seee.hust.edu.vn/en/con-nguoi/nguyen-hoai-nam/" rel="external nofollow noopener" target="_blank">Assoc. Prof. Hoai Nam Nguyen</a>, where I work on control algorithms for robotic systems within a small team, currently centered on UAV flight control. My role centers on the modeling and controller-design side of the pipeline — building plant models, configuring and debugging MPC blocks, and implementing adaptive/learning-based control laws — working closely with teammates on validation and testing. </p> <p> Outside of research, I enjoy exploring controller design more broadly across robotic platforms — from classical PID to self-tuning fuzzy and Lyapunov-based adaptive control — as a way to deepen my understanding of nonlinear control theory in practice. </p> </div> </div> <h2> <a href="/news/" style="color: inherit">news</a> </h2> <div class="news"> <p>No news so far...</p> </div> <h2> <a href="/blog/" style="color: inherit">latest posts</a> </h2> <div class="news"> <div class="table-responsive"> <table class="table table-sm table-borderless"> <tr> <th scope="row" style="width: 20%">May 22, 2021</th> <td> <a class="news-title" href="/blog/2021/distill/">a distill-style blog post</a> </td> </tr> </table> </div> </div> </article> </div> </div> <footer class="sticky-bottom mt-5" role="contentinfo"> <div class="container"> © Copyright 2026 Hong-Vinh Vu. Last updated: September 21, 2026. </div> </footer> <script>
+  </style> <div class="about-content" style="overflow: hidden; display: block;"> <p> I'm an undergraduate at <strong>Hanoi University of Science and Technology (HUST)</strong>, majoring in Control and Automation Engineering, with a research focus on modern control theory for robotics, spanning both optimal control (Model Predictive Control, and — going forward — reinforcement learning and deep reinforcement learning) and intelligent control (direct adaptive fuzzy control and deep neural-network-based control). My long-term interest is applying optimization-based and learning-based control methods to autonomous robotic systems. </p> <p> Most of my work lives at the intersection of theory and simulation: deriving nonlinear system dynamics, designing controllers around them (from decoupled MIMO MPC formulations to state-augmented adaptive laws), and validating performance in MATLAB/Simulink — with Python for supporting analysis. I'm looking to grow this further by bringing RL/DRL into my optimal control work and deep neural networks into my intelligent control work. </p> <p> I'm currently a Research Assistant at the <strong><a href="https://seee.hust.edu.vn/vi/nghien-cuu/macs/" rel="external nofollow noopener" target="_blank">Multi-Agent System Control (MASC) Laboratory</a></strong>, SEEE, HUST, supervised by <a href="https://seee.hust.edu.vn/en/con-nguoi/nguyen-hoai-nam/" rel="external nofollow noopener" target="_blank">Assoc. Prof. Hoai Nam Nguyen</a>, where I work on control algorithms for robotic systems within a small team, currently centered on UAV flight control. My role centers on the modeling and controller-design side of the pipeline — building plant models, configuring and debugging MPC blocks, and implementing adaptive/learning-based control laws — working closely with teammates on validation and testing. </p> <p> Outside of research, I enjoy exploring controller design more broadly across robotic platforms — from classical PID to self-tuning fuzzy and Lyapunov-based adaptive control — as a way to deepen my understanding of nonlinear control theory in practice. </p> </div> </div> <h2> <a href="/news/" style="color: inherit">news</a> </h2> <div class="news"> <p>No news so far...</p> </div> <h2> <a href="/blog/" style="color: inherit">latest posts</a> </h2> <div class="news"> <div class="table-responsive"> <table class="table table-sm table-borderless"> <tr> <th scope="row" style="width: 20%">May 22, 2021</th> <td> <a class="news-title" href="/blog/2021/distill/">a distill-style blog post</a> </td> </tr> </table> </div> </div> </article> </div> </div> <footer class="sticky-bottom mt-5" role="contentinfo"> <div class="container"> © Copyright 2026 Hong-Vinh Vu. Last updated: September 22, 2026. </div> </footer> <script>
   window.alFolio = {
     compatBootstrap: false
   };
@@ -163,13 +198,6 @@ ninja.data = [{
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/introduction-to-machine-learning/";
             },},{
-        id: 'social-cv',
-        title: 'CV',
-        section: 'Socials',
-        handler: () => {
-          window.open("/assets/pdf/MyCV.pdf", "_blank");
-        },
-      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
