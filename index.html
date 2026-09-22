@@ -54,12 +54,12 @@
     object-fit: contain;
     filter: invert(29%) sepia(89%) saturate(3200%) hue-rotate(199deg) brightness(97%) contrast(101%);
   }
-  .profile .contact-icons a[href*="orcid.org"] {
+  .profile .contact-icons a[href*='orcid.org'] {
     background: #fff !important;
     border: 1px solid #0076df !important;
   }
-  .profile .contact-icons a[href*="orcid.org"] svg,
-  .profile .contact-icons a[href*="orcid.org"] img {
+  .profile .contact-icons a[href*='orcid.org'] svg,
+  .profile .contact-icons a[href*='orcid.org'] img {
     filter: invert(29%) sepia(89%) saturate(3200%) hue-rotate(199deg) brightness(97%) contrast(101%) !important;
   }
   .profile .contact-icons a:hover {
@@ -84,7 +84,10 @@
     font-size: 18px;
     font-weight: 700;
     line-height: 1.2;
-    transition: transform 0.15s, background 0.15s, box-shadow 0.15s;
+    transition:
+      transform 0.15s,
+      background 0.15s,
+      box-shadow 0.15s;
   }
   .profile .cv-link:hover {
     color: #fff;
