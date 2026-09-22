@@ -44,12 +44,12 @@ layout: default
     object-fit: contain;
     filter: invert(29%) sepia(89%) saturate(3200%) hue-rotate(199deg) brightness(97%) contrast(101%);
   }
-  .profile .contact-icons a[href*="orcid.org"] {
+  .profile .contact-icons a[href*='orcid.org'] {
     background: #fff !important;
     border: 1px solid #0076df !important;
   }
-  .profile .contact-icons a[href*="orcid.org"] svg,
-  .profile .contact-icons a[href*="orcid.org"] img {
+  .profile .contact-icons a[href*='orcid.org'] svg,
+  .profile .contact-icons a[href*='orcid.org'] img {
     filter: invert(29%) sepia(89%) saturate(3200%) hue-rotate(199deg) brightness(97%) contrast(101%) !important;
   }
   .profile .contact-icons a:hover {
@@ -74,7 +74,10 @@ layout: default
     font-size: 18px;
     font-weight: 700;
     line-height: 1.2;
-    transition: transform 0.15s, background 0.15s, box-shadow 0.15s;
+    transition:
+      transform 0.15s,
+      background 0.15s,
+      box-shadow 0.15s;
   }
   .profile .cv-link:hover {
     color: #fff;
@@ -155,7 +158,7 @@ layout: default
       </h2>
       <div class="news">
         {% if page.latest_posts != blank %}
-          {% assign latest_posts_size = site.posts | where_exp: "item", "item.hidden != true" | size %}
+          {% assign latest_posts_size = site.posts | where_exp: 'item', 'item.hidden != true' | size %}
           <div
             class="table-responsive"
             {% if page.latest_posts.scrollable and latest_posts_size > 3 %}
@@ -163,7 +166,7 @@ layout: default
             {% endif %}
           >
             <table class="table table-sm table-borderless">
-              {% assign latest_posts = site.posts | where_exp: "item", "item.hidden != true" %}
+              {% assign latest_posts = site.posts | where_exp: 'item', 'item.hidden != true' %}
               {% if page.latest_posts.limit %}
                 {% assign latest_posts_limit = page.latest_posts.limit %}
               {% else %}

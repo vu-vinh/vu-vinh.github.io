@@ -17,21 +17,21 @@ first_name: Hong-Vinh
 #middle_name: R.
 last_name: Vu
 contact_note: >
-  
-description: >         # the ">" symbol means to ignore newlines until "footer_text:"
+
+description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
-lang: en               # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: automation.png   #⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
+icon: automation.png #⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 apple_touch_icon: /assets/img/automation.png # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty, iOS falls back to a screenshot of the page.
 
 url: https://vinhvu.io.vn # custom domain served by GitHub Pages
 baseurl: #/al-folio    # the subpath of your site, e.g. /blog/. Leave blank for root
 cv_pdf: /assets/pdf/MyCV.pdf # opened by the profile button and CV page
-last_updated: true     # set to true if you want to display last updated in the footer
-impressum_path:        # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
-back_to_top: true      # set to false to disable the back to top button
+last_updated: true # set to true if you want to display last updated in the footer
+impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
+back_to_top: true # set to false to disable the back to top button
 
 # -----------------------------------------------------------------------------
 # Theme
@@ -351,8 +351,8 @@ jekyll-archives:
       year: "/blog/:year/"
       tags: "/blog/:type/:name/"
       categories: "/blog/:type/:name/"
- # books:
- #   enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+  # books:
+  #   enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
 display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
 display_categories: ["external-services"] # these categories will be displayed on the front page of your blog

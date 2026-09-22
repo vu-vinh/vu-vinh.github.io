@@ -11,6 +11,7 @@ nav: true
 nav_order: 6
 description: #blank
 ---
+
 [Download my CV in PDF]({{ site.cv_pdf | relative_url }})
 
 <iframe
