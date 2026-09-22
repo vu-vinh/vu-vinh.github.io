@@ -11,10 +11,10 @@ nav: true
 nav_order: 6
 description: #blank
 ---
-[Download my CV in PDF]({{ 'assets/pdf/MyCV.pdf' | relative_url }})
+[Download my CV in PDF]({{ site.cv_pdf | relative_url }})
 
 <iframe
-  src="{{ 'assets/pdf/MyCV.pdf' | relative_url }}"
+  src="{{ site.cv_pdf | relative_url }}"
   width="100%"
   height="1200px"
   style="border: 1px solid #d9ded7; border-radius: 6px;">
